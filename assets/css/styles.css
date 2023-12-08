@@ -40,7 +40,7 @@ a {
     background: #fffcf4;
 }
 
-.header .fixed {
+.header.fixed {
     position: sticky;
     top: -28px;
 }
@@ -69,7 +69,6 @@ a {
 .nav a:hover,
 .nav li.active a {
     color: #171100;
-    /* font-weight: 600; */
     text-shadow: 1px 0 0 currentColor;
 }
 
@@ -88,6 +87,7 @@ a {
 .header .sign-up-btn {
     min-width: 144px;
 }
+
 .header .active {
-    margin-left: 70px;
+    margin-left: 49px;
 }
